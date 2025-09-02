@@ -1,0 +1,841 @@
+2025.09.02 15:03:28 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\Administrator\Documents\GitHub\agile-hw' for client Visual Studio Code 1.88.1.
+2025.09.02 15:03:29 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:03:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:03:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:06:16 INFO  Shutting down server
+2025.09.02 15:06:16 INFO  shutting down Metals
+2025.09.02 15:06:16 INFO  Exiting server
+2025.09.02 15:06:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.02 15:13:09 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\Administrator\Documents\GitHub\agile-hw' for client Visual Studio Code 1.88.1.
+2025.09.02 15:13:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:17 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:26 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:13:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:28 INFO  time: code lens generation in 2.6s
+2025.09.02 15:13:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:45 INFO  Created report: Optional[file:///C:/Users/Administrator/Documents/GitHub/agile-hw/lab0/src/main/scala/Hello.scala]
+2025.09.02 15:13:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Administrator\Documents\GitHub\agile-hw\.metals\.reports\metals-full\2025-09-02\r_empty-definition_15-13-45-164.md")
+2025.09.02 15:13:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:13:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:14:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:21 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:34:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:31 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:34:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:34:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:13 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:36:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:34 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:36:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:42 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:36:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:36:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:38:49 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:38:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:38:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:38:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:39:50 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:04 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:41:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:23 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:23 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Documents/GitHub/agile-hw/lab1/src/main/scala/classes_exc.scala
+2025.09.02 15:41:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:24 WARN  Could not find semantic tokens for: file:///C:/Users/Administrator/Documents/GitHub/agile-hw/lab1/src/main/scala/classes_exc.scala
+2025.09.02 15:41:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+sep. 02, 2025 3:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+sep. 02, 2025 3:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:37 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:42 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 249
+2025.09.02 15:41:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:48 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:59 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:41:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:41:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:45 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:46 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:47 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:42:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:49 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:42:51 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:06 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:09 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:09 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:09 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:27 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:43:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:36 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:40 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:41 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:42 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:43 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:47 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:48 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:52 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:52 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala
+2025.09.02 15:43:52 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:52 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:52 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:56 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:56 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab0\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:57 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:43:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:43:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:00 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:44:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:19 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:44:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:44:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 481
+2025.09.02 15:44:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:44:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+2025.09.02 15:44:29 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:29 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:30 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:44:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:34 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:44:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:40 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:44:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:53 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:44:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:00 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:18 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:27 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:29 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:29 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:31 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:45:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 594
+2025.09.02 15:45:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:38 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:40 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:39 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:40 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:54 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:56 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:56 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:56 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:58 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:45:59 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:00 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:01 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:12 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:12 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:12 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:17 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:17 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:46:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 681
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:18 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:19 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:24 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:28 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:34 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:46:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:46:44 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:05 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala
+2025.09.02 15:47:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\classes_exc.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:06 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:10 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:10 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:10 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:11 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:47:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 792
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:13 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:14 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:15 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:15 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:17 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:16 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+sep. 02, 2025 3:47:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 816
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:24 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:27 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:55 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:57 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:47:58 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:47:58 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:01 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:03 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:03 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:04 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:05 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:07 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:06 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:07 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:08 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:08 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:09 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:19 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:20 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:20 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:21 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:21 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:23 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:22 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:24 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:24 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:48:27 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:48:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:25 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:26 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:27 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:27 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:49:28 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:31 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:31 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:49:30 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:32 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:33 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:34 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:35 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:36 WARN  no build target for: C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala
+2025.09.02 15:49:36 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:49:37 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.02 15:50:02 INFO  no build target found for C:\Users\Administrator\Documents\GitHub\agile-hw\lab1\src\main\scala\Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
