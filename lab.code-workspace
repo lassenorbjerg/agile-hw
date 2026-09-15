@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "lab0"
+    },
+    {
+      "path": "lab1"
+    },
+    {
+      "path": "lab2"
+    },
+    {
+      "path": "lab3"
+    },
+    {
+      "path": "lab6"
+    },
+    {
+      "path": "lab7"
+    },
+    {
+      "path": "lab8"
+    },
+    {
+      "path": "lab11"
+    }
+  ],
+  "settings": {
+    "files.watcherExclude": {
+      "**/target/**": true
+    }
+  }
+}
