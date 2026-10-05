@@ -13,7 +13,8 @@ class Block(
     endAddress: Int, // NOTE: from hex
     cacheable: Boolean,  // NOTE: from yes/no
     executable: Boolean, // NOTE: from yes/no
-    description: String
+    description: String,
+    registers: Seq[Register]
 ) {}
 class Register(
     name: String,
@@ -27,18 +28,66 @@ class Field(
     init: Any
 ) {}
 
+
 // Class for parsing spreadsheet data containing register/block descriptions
 class SheetParser(sheets: Map[String, Sheet]) {
-  // Method to parse the "Map" sheet and extract row data
-  def parseMap(): Unit = {
-    // Retrieve the "Map" sheet from the sheets collection
+  
+
+  private def buildField(blockName: String): Field = {
+
+  }
+  private def buildRegister(rowData: Seq[String]): Register = {
+
+  }
+
+  private def buildBlock(blockName: String): Block = {
     val map = sheets("Map")
 
-    // Extract all rows from the Map sheet
-    val blocks = map.rows
+    val block, rest = for (row: Seq[String] <- map.rows if row(0) == blockName) yield (row)
 
-    // Print the blocks data to console for debugging
-    println(blocks.toString())
+  
+
+    // val block, name, interface, baseAddress, endAddress, cacheable, executable, description = map.row(index)
+    // val block, rest = sheets("Map").row(index)
+    
+
+    val blockObject = Block.tupled(rest :+ registers)
+
+    // val blockObject = new Block(
+    //   name=name,
+    //   interface=interface,
+    //   baseAddress=baseAddress,
+    //   endAddress=endAddress,
+    //   cacheable=cacheable,
+    //   executable=executable,
+    //   description=description
+    //   // registers=new Seq(),
+    // )
+  }
+
+  def parseMap(): Unit = {
+    val map = sheets("Map")
+
+    
+    // val csr = IO(
+    //   new DynamicBundle(
+    //     Seq(
+    //       sheets(map.column("Block").head).column("Register").head -> Output(
+    //         UInt(32.W)
+    //       )
+    //     )
+    //   )
+    // )
+    
+    // val blocks = map.column("Block").zipWithIndex.foreach(
+    //   (blockName: String, index: Int) => (map.row(index+1) 
+    //   new Block(
+    //     name=blockName,
+    //     interface=
+    //   ))
+    // )
+
+    // println(blocks.toString())
 
   }
 
@@ -58,8 +107,9 @@ class ApbPort extends Bundle {
 class CsrAdapter(descriptionSheetPath: String) extends Module {
 
   val sheets = Sheet.load(descriptionSheetPath)
+  val parser = new SheetParser(sheets)
   val map = sheets("Map")
-  println(map)
+  println(parser.parseMap())
 
   val apb = IO(new ApbPort)
 
