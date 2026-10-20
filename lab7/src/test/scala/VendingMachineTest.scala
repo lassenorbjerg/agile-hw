@@ -53,15 +53,21 @@ class VendingMachineChisel(dut: VendingMachine) extends VendingMachineImpl {
     dut.io.insert.poke(true.B)
     dut.clock.step(1)
     dut.io.insert.poke(false.B)
+    println(f"[chisel] insert  coin=$amount%3d DKK  balance=${dut.io.balanceOut.peekInt()}%3d DKK")
   }
 
   def selectItem(itemId: Int): (Boolean, Int) = {
+    reset()
     dut.io.itemId.poke(itemId.U)
     dut.io.buy.poke(true.B)
+    var dispensed = dut.io.dispensed.peekBoolean()
+    var change = dut.io.change.peekInt().toInt
+    var price = dut.io.priceOut.peekInt()
+    var balance = dut.io.balanceOut.peekInt()
+    var status = if (dispensed) "DISPENSED" else "REJECTED"
+    println(f"[chisel] select  item=$itemId%2d price=$price%3d DKK  $status  change=$change%3d DKK  balance=$balance%3d DKK")
     dut.clock.step(1)
     dut.io.buy.poke(false.B)
-    val dispensed = dut.io.dispensed.peek().litToBoolean
-    val change = dut.io.change.peek().litValue.toInt
     (dispensed, change)
   }
 

@@ -28,6 +28,9 @@ class VendingMachine(prices: Map[Int, Int]) extends Module {
     val itemId = Input(UInt(8.W)) // could check lg ceil of max of map
     val dispensed = Output(Bool())
     val change = Output(UInt(8.W))
+
+    val balanceOut = Output(UInt(8.W)) // debug
+    val priceOut = Output(UInt(8.W)) // debug
   })
 
   // TODO: Implement your vending machine logic here
@@ -37,10 +40,15 @@ class VendingMachine(prices: Map[Int, Int]) extends Module {
   }
   io.dispensed := false.B
   io.change := 0.U
+
+  val valid = prices.keys.map(id => io.itemId === id.U).reduce(_ || _)
   val price = MuxLookup(io.itemId, 0.U)(prices.map { case (id, p) =>
     id.U -> p.U
   }.toSeq)
-  when(io.buy) {
+
+  io.balanceOut := balance
+  io.priceOut := price
+  when(io.buy && valid) {
     when(balance >= price) {
       io.dispensed := true.B
       io.change := balance - price
