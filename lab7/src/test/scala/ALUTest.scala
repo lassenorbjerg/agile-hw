@@ -3,16 +3,15 @@ import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
 trait ALUImpl {
-  def get_result(sel: Int, op1: Int, op2: Int): Int
-  def get_result_signed(sel: Int, op1: Int, op2: Int): Int
-  def get_comp(sel: Int, op1: Int, op2: Int, signed: Boolean): Int
-  def get_result_comp_0(sel: Int, op1: Int, op2: Int, signed: Boolean): Int
+  def compute(sel: Int, op1: Int, op2: Int, signed: Boolean): (Int, Int, Array[Boolean], Array[Boolean])
 }
 
 
 class ALUModel extends ALUImpl {
   
-  def get_operator(sel: Int): (Int,Int) => Int = {
+  def compute(sel: Int, op1: Int, op2: Int, signed: Boolean): (Int, Int, Array[Boolean], Array[Boolean]) = {
+    var op1_signed = if (signed) op1 else op1 & 0xFFFFFFFF
+    var op2_signed = if (signed) op2 else op2 & 0xFFFFFFFF
     /*
       0. not op1
       1. op1 & op2
@@ -28,7 +27,7 @@ class ALUModel extends ALUImpl {
       11-15. nop
     */
     
-    sel match {
+    var op = sel match {
       case 0 => ((op1: Int, op2: Int) => ~op1)
       case 1 => ((op1: Int, op2: Int) => op1 & op2)
       case 2 => ((op1: Int, op2: Int) => op1 | op2)
@@ -42,15 +41,6 @@ class ALUModel extends ALUImpl {
       case 10 => ((op1: Int, op2: Int) => op1 << (op2 & 0x3F))
       case _ => ((op1: Int, op2: Int) => 0)
     }
-  }
-
-  def get_result(sel: Int, op1: Int, op2: Int): Int = {
-    get_operator(sel)(op1,op2)
-  }
-  def get_result_signed(sel: Int, op1: Int, op2: Int): Int = {
-    get_operator(sel,op1,op2)
-  }
-  def get_comp(sel: Int, op1: Int, op2: Int, op1_signed: Int, op2_signed: Int, signed: Boolean): Array[Boolean] = {
     /*
     comp(0) = op1<op2
     comp(1) = op1==op2
@@ -72,9 +62,6 @@ class ALUModel extends ALUImpl {
       comp(3) = op1 <= op2
       comp(4) = op1 >= op2
     }
-    comp
-  }
-  def get_result_comp_0(sel: Int, op1: Int, op2: Int, op1_signed: Int, op2_signed: Int, signed: Boolean): Array[Boolean] = {
     /*
     result_comp_0(0) = out_result<0
     result_comp_0(1) = out_result==0
@@ -83,13 +70,14 @@ class ALUModel extends ALUImpl {
     result_comp_0(4) = out_result>=0
     */
     val result_comp_0 = new Array[Boolean](5)
-    val result = if (signed) get_result(sel, op1_signed, op2_signed) else get_result_signed(sel, op1, op2)
+    val result = op(op1, op2)
+    val result_signed = op(op1_signed, op2_signed)
     result_comp_0(0) = result < 0
     result_comp_0(1) = result == 0
     result_comp_0(2) = result > 0
     result_comp_0(3) = result <= 0
     result_comp_0(4) = result >= 0
-    result_comp_0
+    (result, result_signed, comp, result_comp_0)
   }
 
 }
@@ -97,13 +85,27 @@ class ALUModel extends ALUImpl {
 // Chisel implementation wrapper
 // This wrapper is complete and drives the ALU hardware
 class ALUChisel(dut: ALU) extends ALUImpl {
-  
+  def compute(sel: Int, op1: Int, op2: Int, signed: Boolean): (Int, Int, Array[Boolean], Array[Boolean]) = {
+    dut.io.in_signed.poke(signed.B)
+    dut.io.in_sel.poke(sel.U)
+    dut.io.in_op1.poke(op1.U)
+    dut.io.in_op2.poke(op2.U)
+    dut.io.in_op1_signed.poke(op1.S)
+    dut.io.in_op2_signed.poke(op2.S)
+    dut.clock.step(1)
+    val result = dut.io.out_result.peek().litValue.toInt
+    val result_signed = dut.io.out_result_signed.peek().litValue.toInt
+    val comp = dut.io.out_comp.map(_.peek().litToBoolean).toArray
+    val result_comp_0 = dut.io.out_result_comp_0.map(_.peek().litToBoolean).toArray
+    (result, result_signed, comp, result_comp_0)
+  }
 }
 
 // Simple tester that compares multiple implementations
 class ALUSimpleTester(implementations: Seq[ALUImpl]) {
   def testOperation(description: String)(op1: Int, op2: Int, sel: Int, signed: Boolean): Unit = {
-    ???
+    val results = implementations.map(impl => impl.compute(sel,op1,op2,signed))
+    assert(results.distinct.size == 1)
   }
 }
 
@@ -114,9 +116,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "perform unsigned addition correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("5 + 3 (unsigned)")(5, 3, 4, false)
       tester.testOperation("100 + 50 (unsigned)")(100, 50, 4, false)
@@ -126,9 +128,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "perform unsigned subtraction correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("10 - 3 (unsigned)")(10, 3, 5, false)
       tester.testOperation("100 - 50 (unsigned)")(100, 50, 5, false)
@@ -137,9 +139,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "perform bitwise operations correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("15 & 7 (AND)")(15, 7, 1, false)
       tester.testOperation("8 | 4 (OR)")(8, 4, 2, false)
@@ -150,9 +152,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "perform multiplication and division correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("6 * 7 (MUL)")(6, 7, 8, false)
       tester.testOperation("20 / 4 (DIV)")(20, 4, 6, false)
@@ -162,9 +164,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "perform shift operations correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("8 << 2 (SLL)")(8, 2, 10, false)
       tester.testOperation("32 >> 2 (SRL)")(32, 2, 9, false)
@@ -173,9 +175,9 @@ class ALUTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "handle signed operations correctly" in {
     test(new ALU) { dut =>
-      // val model = new ALUModel()
+      val model = new ALUModel()
       val chiselImpl = new ALUChisel(dut)
-      val tester = new ALUSimpleTester(Seq(chiselImpl)) // TODO: Add model when implemented
+      val tester = new ALUSimpleTester(Seq(chiselImpl, model)) // TODO: Add model when implemented
 
       tester.testOperation("-5 + 3 (signed)")(-5, 3, 4, true)
       tester.testOperation("10 - 20 (signed)")(10, 20, 5, true)
