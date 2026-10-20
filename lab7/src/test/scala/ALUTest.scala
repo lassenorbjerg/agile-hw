@@ -81,11 +81,17 @@ class ALUModel extends ALUImpl {
     val result_comp_0 = new Array[Boolean](5)
     val result = op(op1, op2)
     val result_signed = op(op1_signed, op2_signed)
-    result_comp_0(0) = result < 0
-    result_comp_0(1) = result == 0
-    result_comp_0(2) = result > 0
-    result_comp_0(3) = result <= 0
-    result_comp_0(4) = result >= 0
+    val result_signed_option = if (signed) result_signed else result
+
+    val result_lt0 = signed && result_signed_option < 0
+    val result_eq0 = result_signed_option == 0
+    val result_gt0 = !result_lt0 && !result_eq0
+
+    result_comp_0(0) = result_lt0
+    result_comp_0(1) = result_eq0
+    result_comp_0(2) = result_gt0
+    result_comp_0(3) = result_lt0 || result_eq0
+    result_comp_0(4) = result_gt0 || result_eq0
     (result, result_signed, comp, result_comp_0)
   }
 
@@ -102,8 +108,8 @@ class ALUChisel(dut: ALU) extends ALUImpl {
   ): (Int, Int, Array[Boolean], Array[Boolean]) = {
     dut.io.in_signed.poke(signed.B)
     dut.io.in_sel.poke(sel.U)
-    dut.io.in_op1.poke(op1.U)
-    dut.io.in_op2.poke(op2.U)
+    dut.io.in_op1.poke(Integer.toUnsignedLong(op1).U)
+    dut.io.in_op2.poke(Integer.toUnsignedLong(op2).U)
     dut.io.in_op1_signed.poke(op1.S)
     dut.io.in_op2_signed.poke(op2.S)
     dut.clock.step(1)
@@ -121,7 +127,7 @@ class ALUSimpleTester(implementations: Seq[ALUImpl]) {
   // Arrays use reference equality and print as [Z@hash, so compare and print formatted strings
   def format(result: (Int, Int, Array[Boolean], Array[Boolean])): String = {
     val (out, outSigned, comp, compOut) = result
-    s"result=$out, result_signed=$outSigned, " +
+    s"result=${Integer.toUnsignedString(out)}, result_signed=$outSigned, " +
       s"comp=${comp.mkString("[", ", ", "]")}, " +
       s"result_comp_0=${compOut.mkString("[", ", ", "]")}"
   }
