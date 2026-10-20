@@ -3,18 +3,101 @@ import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
 trait ALUImpl {
-  ???
+  def get_result(sel: Int, op1: Int, op2: Int): Int
+  def get_result_signed(sel: Int, op1: Int, op2: Int): Int
+  def get_comp(sel: Int, op1: Int, op2: Int, signed: Boolean): Int
+  def get_result_comp_0(sel: Int, op1: Int, op2: Int, signed: Boolean): Int
 }
 
 
 class ALUModel extends ALUImpl {
-  ???
+  
+  def get_operator(sel: Int): (Int,Int) => Int = {
+    /*
+      0. not op1
+      1. op1 & op2
+      2. op1 | op2
+      3. op1 ^ op2
+      4. op1 + op2
+      5. op1 - op2
+      6. op1 / op2
+      7. op1 % op2
+      8. op1 * op2
+      9. op1 >> op2(5,0)
+      10. op1 << op2(5,0)
+      11-15. nop
+    */
+    
+    sel match {
+      case 0 => ((op1: Int, op2: Int) => ~op1)
+      case 1 => ((op1: Int, op2: Int) => op1 & op2)
+      case 2 => ((op1: Int, op2: Int) => op1 | op2)
+      case 3 => ((op1: Int, op2: Int) => op1 ^ op2)
+      case 4 => ((op1: Int, op2: Int) => op1 + op2)
+      case 5 => ((op1: Int, op2: Int) => op1 - op2)
+      case 6 => ((op1: Int, op2: Int) => op1 / op2)
+      case 7 => ((op1: Int, op2: Int) => op1 % op2)
+      case 8 => ((op1: Int, op2: Int) => op1 * op2)
+      case 9 => ((op1: Int, op2: Int) => op1 >> (op2 & 0x3F))
+      case 10 => ((op1: Int, op2: Int) => op1 << (op2 & 0x3F))
+      case _ => ((op1: Int, op2: Int) => 0)
+    }
+  }
+
+  def get_result(sel: Int, op1: Int, op2: Int): Int = {
+    get_operator(sel)(op1,op2)
+  }
+  def get_result_signed(sel: Int, op1: Int, op2: Int): Int = {
+    get_operator(sel,op1,op2)
+  }
+  def get_comp(sel: Int, op1: Int, op2: Int, op1_signed: Int, op2_signed: Int, signed: Boolean): Array[Boolean] = {
+    /*
+    comp(0) = op1<op2
+    comp(1) = op1==op2
+    comp(2) = op1>op2
+    comp(3) = op1<=op2
+    comp(4) = op1>=op2
+    */
+    val comp = new Array[Boolean](5)
+    if (signed) {
+      comp(0) = op1_signed < op2_signed
+      comp(1) = op1_signed == op2_signed
+      comp(2) = op1_signed > op2_signed
+      comp(3) = op1_signed <= op2_signed
+      comp(4) = op1_signed >= op2_signed
+    } else {
+      comp(0) = op1 < op2
+      comp(1) = op1 == op2
+      comp(2) = op1 > op2
+      comp(3) = op1 <= op2
+      comp(4) = op1 >= op2
+    }
+    comp
+  }
+  def get_result_comp_0(sel: Int, op1: Int, op2: Int, op1_signed: Int, op2_signed: Int, signed: Boolean): Array[Boolean] = {
+    /*
+    result_comp_0(0) = out_result<0
+    result_comp_0(1) = out_result==0
+    result_comp_0(2) = out_result>0
+    result_comp_0(3) = out_result<=0
+    result_comp_0(4) = out_result>=0
+    */
+    val result_comp_0 = new Array[Boolean](5)
+    val result = if (signed) get_result(sel, op1_signed, op2_signed) else get_result_signed(sel, op1, op2)
+    result_comp_0(0) = result < 0
+    result_comp_0(1) = result == 0
+    result_comp_0(2) = result > 0
+    result_comp_0(3) = result <= 0
+    result_comp_0(4) = result >= 0
+    result_comp_0
+  }
+
 }
 
 // Chisel implementation wrapper
 // This wrapper is complete and drives the ALU hardware
 class ALUChisel(dut: ALU) extends ALUImpl {
-  ???
+  
 }
 
 // Simple tester that compares multiple implementations
