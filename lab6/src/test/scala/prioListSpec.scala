@@ -14,8 +14,8 @@ class prioListSpec extends AnyFlatSpec
   // Slide "Test-Driven Development (TDD)"
   "A node" should "start empty" in {
     test(new prioListNode(8,8)) { c =>
-        c.key.expect(0.U)
-        c.value.expect(0.U)
+        c.io.key.expect(0.U)
+        c.io.value.expect(0.U)
     }
   }
 
@@ -35,3 +35,38 @@ class prioListSpec extends AnyFlatSpec
 //     }
 //   }
     }
+
+
+/* 
+
+fOut is always set
+
+IDLE:
+    do nothing
+
+PUSH:
+    do it from empty and for existing key pair
+    new key and value goes in (bot right)
+    if new_key > existing_key
+        new key and value goes out (top right)
+    elif new_key < existing_key
+        existing key and value goes out (top right)
+    else  // new_key == existing_key
+        ????
+POP:
+    bOut <= reg
+    clk +1
+    if Bin < reg {
+        reg <= Bin
+    }
+PUSH/POP:
+    reg <= Fin
+    if Bin < Fin {
+        propagate CMD
+        bOut := Fin
+        Reg <= Bin
+    }
+    
+
+
+ */
