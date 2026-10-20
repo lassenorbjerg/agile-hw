@@ -1,6 +1,7 @@
 import chisel3._
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
+import chisel3.simulator.PeekPokeAPI
 
 // A trait defining the interface for vending machine implementations
 // This allows us to test both software and hardware implementations against the same specification
@@ -46,9 +47,32 @@ class VendingMachineModel(prices: Map[Int, Int]) extends VendingMachineImpl {
 
 // Chisel implementation wrapper
 // TODO: Implement all methods from VendingMachineImpl trait
-// class VendingMachineChisel(dut: VendingMachine) extends VendingMachineImpl {
-//   ???
-// }
+class VendingMachineChisel(dut: VendingMachine) extends VendingMachineImpl {
+  def insertCoin(amount: Int): Unit = {
+    dut.io.coin.poke(amount.U)
+    dut.io.insert.poke(true.B)
+    dut.clock.step(1)
+    dut.io.insert.poke(false.B)
+  }
+
+  def selectItem(itemId: Int): (Boolean, Int) = {
+    dut.io.itemId.poke(itemId.U)
+    dut.io.buy.poke(true.B)
+    dut.clock.step(1)
+    dut.io.buy.poke(false.B)
+    val dispensed = dut.io.dispensed.peek().litToBoolean
+    val change = dut.io.change.peek().litValue.toInt
+    (dispensed, change)
+  }
+
+  def reset(): Unit = {
+    dut.io.coin.poke(0.U)
+    dut.io.insert.poke(false.B)
+    dut.io.buy.poke(false.B)
+    dut.io.itemId.poke(0.U)
+    dut.clock.step(1)
+  }
+}
 
 // Simple tester that compares multiple implementations
 // Executes a sequence of operations on all implementations and verifies they produce identical results
@@ -84,8 +108,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "dispense item with exact payment" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       tester.testTransaction("exact payment for candy (5 DKK)") { impl =>
         impl.insertCoin(5)
@@ -97,8 +121,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "return correct change on overpayment" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       tester.testTransaction("overpayment for candy (10 DKK -> 5 DKK change)") { impl =>
         impl.insertCoin(10)
@@ -113,8 +137,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "not dispense on insufficient funds" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       tester.testTransaction("insufficient funds (3 DKK < 5 DKK)") { impl =>
         impl.insertCoin(3)
@@ -129,8 +153,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "accumulate coins over multiple insertions" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       tester.testTransaction("accumulate 2 + 3 + 5 = 10 DKK for chips") { impl =>
         impl.insertCoin(2)
@@ -148,8 +172,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "handle multiple sequential transactions" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       // Transaction 1: Buy candy
       tester.testTransaction("transaction 1: candy") { impl =>
@@ -177,8 +201,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "handle invalid item IDs gracefully" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val tester = new VendingMachineSimpleTester(Seq(model)) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val tester = new VendingMachineSimpleTester(Seq(model,chiselImpl)) // TODO: Add chiselImpl when implemented
 
       tester.testTransaction("invalid item ID preserves balance") { impl =>
         impl.insertCoin(20)
@@ -200,8 +224,8 @@ class VendingMachineTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "test all items with various payment combinations" in {
     test(new VendingMachine(samplePrices)) { dut =>
       val model = new VendingMachineModel(samplePrices)
-      // val chiselImpl = new VendingMachineChisel(dut)
-      val implementations = Seq(model) // TODO: Add chiselImpl when implemented
+      val chiselImpl = new VendingMachineChisel(dut)
+      val implementations = Seq(model) //,chiselImpl TODO: Add chiselImpl when implemented
 
       // Test each item
       for ((itemId, price) <- samplePrices) {

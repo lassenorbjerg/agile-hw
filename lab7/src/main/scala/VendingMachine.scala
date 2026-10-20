@@ -21,6 +21,31 @@ import chisel3.util._
 
 class VendingMachine(prices: Map[Int, Int]) extends Module {
   // TODO: Define your IO bundle here
+  val io = IO(new Bundle {
+    val coin = Input(UInt(8.W))
+    val insert = Input(Bool())
+    val buy = Input(Bool())
+    val itemId = Input(UInt(8.W)) // could check lg ceil of max of map
+    val dispensed = Output(Bool())
+    val change = Output(UInt(8.W))
+  })
 
   // TODO: Implement your vending machine logic here
+  val balance = RegInit(0.U(8.W))
+  when(io.insert) {
+    balance := balance + io.coin
+  }
+  io.dispensed := false.B
+  io.change := 0.U
+  val price = MuxLookup(io.itemId, 0.U)(prices.map { case (id, p) =>
+    id.U -> p.U
+  }.toSeq)
+  when(io.buy) {
+    when(balance >= price) {
+      io.dispensed := true.B
+      io.change := balance - price
+      balance := 0.U
+    }
+  }
+
 }
