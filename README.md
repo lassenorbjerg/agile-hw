@@ -86,19 +86,21 @@ Experiences of using LLMs at Microchip.
 
   * Including presentation of a MVP
 
- ### Week 9: TBD
+ ### Week 9: Generators for Design Space Exploration
 
-  * Lab: Project presentation and demo
+ * [Slides](09_dse.pdf)
+  * Lab: standup presentation (3 minutes per group, no slides), project work
 
  ### Week 10: Formal Verification (Amelia)
 
-  * Lab: Project presentation and demo
+  * Lab: verification lab
+  * Standup presentation (2 minutes per group, no slides), project work
 
-### Week 11: Spade (Frans)
+### Week 11: Spade, and Using Your Language in Agile Design (Frans)
 
   * [Slides](spade.pdf)
   * Install Spade, see [Spade Setup](https://docs.spade-lang.org/agile/quick_setup.html)
-  * Lab: [https://docs.spade-lang.org/agile/intro.html]
+  * Lab: [Spade Intro](https://docs.spade-lang.org/agile/intro.html)
  
 ### Week xx: Chisel in Research (Maybe)
 
@@ -114,8 +116,18 @@ Experiences of using LLMs at Microchip.
 
 ## Group Projects 2026
 
- 1. TBD
- 1. TBD
+ * [Group 1: Advanced Encryption Standard encryption/decryption](https://github.com/gluetex/Agile-HW-Design-AES)
+ * [Group 2: Image Encryption Hardware Accelerator using Ascon-AEAD128](https://github.com/LordWicked/image-encryption-accelerator)
+ * [Group 3: Parameterizable Cache Generator](https://github.com/ertugrulkilic5713/Agile-Design-Project-Parameterized-Cache-Generator)
+ * [Group 4: ECC Generator](https://github.com/StefanBuzu/ecc-gen)
+ * [Group 5: Hardware-Accelerated JSON Parsing / Validation Engine](https://github.com/koch-c/chisel-json-accelerator)
+ * [Group 6: Systolic Arrays for AI acceleration](https://github.com/SystolicArraysChisel/Systolic-Arrays-Chisel)
+ * [Group 7: A Configurable Chisel Generator for Quantized Convolutional Neural Network Inference](https://github.com/Jfvind/chisel-cnn-generator)
+ * [Group 8: Hardware Minesweeper with an On-Chip Deductive Solver](https://github.com/s262007/Minesweeper-Group-Project)
+ * [Group 10: Agile FFT Project](https://github.com/Fewrick/Agile-FFT-Project)
+ * [Group 11: Hardware Chess Engine Generator on an FPGA](https://github.com/CharleezGithub/Hardware-Chess-Engine)
+ * [Group 12: Parameterizable Live Controlled Synthesizer](https://github.com/bathtuballigator/chisel-synth)
+ * [Group 14: BPU-Gen: Parameterized Branch Predictor Generator](https://github.com/Thodorhs/BPU-gen)
 
 ## Group Projects 2025
 
